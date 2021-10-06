@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta
+    name="description"
+    content="Web site created using create-react-app"
+  />
+    <link rel="stylesheet" href="./style.css">
+    <title>To_Do List Web Site</title>
+</head>
+<body>
+    <header class="header">
+        <div class="overlay has-fade"></div>
+            <nav class="container">
+                <a href="/" class="header__logo">
+                    <img src="./assets/_ MaveRick.png" alt="Code Maverick">
+                </a>
+                <a href="#" id="btnHamburger" class="header__toggle hide-for-desktop">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+                <div class="header__links hide-for-mobile">
+                    <a href="#">Take Notes</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Contact</a>
+                    <a href="#" class="button header__cta">Come Along</a>
+                </div>
+            </nav>
+            <div class="header__menu has-fade">
+                <a href="#">Take Notes</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact</a>
+                <a href="#" class="button header__cta">Come Along</a>
+            </div>
+    </header>
+    <section class="hero">
+        <div class="hero__image">
+        </div>
+        <div class="hero__text">
+            <div class="hero__text-heading">
+                <h2>TO-DO LIST</h2>
+            </div>
+            <div class="hero__text-paragraph">
+                <p>Note EveryThing On The Go.</p>
+                <p>Every Thoughts Gets You Closer To Your Goal </p>
+            </div>
+        </div>
+        <div class="hero__wave">
+        </div>
+    </section>
+    <section class="todo">
+       <div class="todo__box" id="todo">
+
+       </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__heading">
+            <img src="/assets/_ MaveRick.png" />
+            <div class="footer__heading-menu">
+                <ul>
+                    <li><a href="#">Take Notes</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Come Along</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__social__media">
+            <h4>Find Us</h4>
+            <div class="footer__social__media-icon">
+                <ul>
+                    <li><img src="https://img.icons8.com/color/48/000000/facebook.png"/></li>
+                    <li><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png"/></li>
+                    <li><img src="https://img.icons8.com/color/48/000000/twitter.png"/></li>
+                    <li><img src="https://img.icons8.com/fluency/48/000000/linkedin.png"/></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <img src="https://img.icons8.com/material-outlined/48/ffffff/copyright.png"/>
+            <h4>All Rights Reserved To Code Maverick Offical</h4>
+        </div>
+    </footer>
+    <script src="./mobilePage.js"></script>
+</body>
+</html>

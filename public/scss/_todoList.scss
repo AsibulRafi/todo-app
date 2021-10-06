@@ -1,0 +1,61 @@
+.todo{
+    width: 100%;
+    height: auto;
+    background-image: url("../public/assets/22128.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    &__box{
+        width: 72.125rem;
+        height: auto;
+        border-radius: 1rem;
+        margin: 0rem auto;
+        background-color: $lg-grey;
+        text-align: center;
+        padding-block: 2rem;
+        &__section{
+            h3{
+              font-family: 'Barlow';
+              font-size: $font-subHeading;  
+              color: $black;
+            }
+            &-input{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                input{
+                background-image: url("../public/assets/22128.png");
+                width: 48.5625rem;
+                height: 3.125rem;
+                border-radius: 10px; 
+                 padding-left: 3rem;
+                 font-family: 'Barlow';
+                 font-size: 1.2rem;
+                 color: $grey;
+                 margin-right: 0.875rem;   
+            }
+            }
+        }
+
+        &__list{
+            ul{
+                padding-left: 0px;
+                padding-right: 80px;
+            }
+            li{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 48.5625rem;
+                height: 3.125rem;
+                margin: 0 auto;
+                border: 1px solid #000;
+                border-radius: 10px;
+                padding-inline: 1rem;
+                &:not(:last-child){
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+}
